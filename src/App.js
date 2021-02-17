@@ -2,6 +2,7 @@ import React from 'react';
 import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
+import { ReactComponent as Logo } from './assets/logo.svg'
 import "./App.css";
 
 
@@ -10,7 +11,7 @@ const App = () => {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <a href="."> <Logo /> </a>
           </div>
           <div className="social">
             <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
