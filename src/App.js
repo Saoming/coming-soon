@@ -11,7 +11,7 @@ const App = () => {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href="."> <Logo /> </a>
+            <a href="."> <Logo style={{ width: '75px' }} /> </a>
           </div>
           <div className="social">
             <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
