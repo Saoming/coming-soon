@@ -34,7 +34,7 @@ const App = () => {
           </a>
         </div>
         <div className="footer">
-          <span>made by <a className="underlined" href="https://github.com/Saoming" target="_blank" rel="noopener noreferrer">Saoming</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/Saoming/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+          <span>made by <a className="underlined" href="https://github.com/Saoming" target="_blank" rel="noopener noreferrer"> Samuel Tirtawidjaja</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/Saoming/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
         </div>
       </div>
     );
