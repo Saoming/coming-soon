@@ -4,8 +4,8 @@ import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
 import "./App.css";
 
-class App extends React.Component {
-  render = () => {
+
+const App = () => {
     return (
       <div className="card">
         <div className="header">
@@ -19,7 +19,7 @@ class App extends React.Component {
             <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
             </a>
-            <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Saoming" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
           </div>
@@ -34,11 +34,10 @@ class App extends React.Component {
           </a>
         </div>
         <div className="footer">
-          <span>made by <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">arkn98</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/arkn98/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+          <span>made by <a className="underlined" href="https://github.com/Saoming" target="_blank" rel="noopener noreferrer">Saoming</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/Saoming/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
         </div>
       </div>
     );
-  }
 }
 
 export default App;
